@@ -23,17 +23,17 @@ height: 100%;
 background: #d9a7c7;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-size: auto;
-  border-spacing: 2px;
+background-size: contain;
+background-repeat: repeat;
+  border-spacing: 20px;
   align-content: flex-start;
-  margin: 40px 40px 40px 40px;
-  overflow-x: scroll;
- overflow-y: scroll;
+  padding: 20px 20px 20px 20px;
+  
   width: auto;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-
+  
 }
 
 /* Resume Page css */
@@ -147,12 +147,18 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, F
     width: 100%;
   }
 }
-@media (min-width: 600px) and (max-width: 991px) {
+@media (min-width: 600px) and (max-width: 780px) {
   .column-1 {
       width: 40%;
   }
   
  
+}
+@media (min-width: 781px) and (max-width: 991px) {
+ 
+  .column-1 {
+      width: 33%;
+  }
 }
 @media (min-width: 992px) {
  

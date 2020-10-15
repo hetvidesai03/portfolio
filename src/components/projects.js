@@ -10,7 +10,7 @@ class Projects extends Component {
       <div className="projects-grid">
         {/* Project 1 */}
         <div className="column-1">
-          <Card shadow={5} style={{width:"100%" , margin: '5px'}}>
+          <Card shadow={5} style={{width:"90%" , margin: '5px'}}>
             <CardTitle style={{ color:'#000',height: '176px', }} >Ensemble</CardTitle>
             <CardText>
             Web application developed using ReactJS, serverless architecture and Firebase
@@ -27,7 +27,7 @@ class Projects extends Component {
 
         {/* Project 2 */}
         <div className="column-1" >
-          <Card shadow={5} style={{ width:"100%" ,margin: '5px' }}>
+          <Card shadow={5} style={{ width:"90%" ,margin: '5px' }}>
           <CardTitle style={{ color: '#000', height: '176px' }} >Web Search Engine</CardTitle>
           <CardText>
            Flask powered query-based text search engine utilizing a Python crawler
@@ -43,7 +43,7 @@ class Projects extends Component {
         {/* Project 4*/}
 
         <div className="column-1" > 
-          <Card shadow={5} style={{width:"auto" , margin: '5px' }}>
+          <Card shadow={5} style={{width:"90%" , margin: '5px' }}>
             <CardTitle style={{ color: '#000', height: '176px' }} >Digital Farmer</CardTitle>
             <CardText>
               Web-based solution built using ReactJS and HTML5 GeoLocation utilizing a crawler and pre-built APIs
@@ -59,7 +59,7 @@ class Projects extends Component {
         
         <div className="column-1" > 
         {/* Project 5*/}
-        <Card shadow={5} style={{width:"auto" ,  margin: '5px' }}>
+        <Card shadow={5} style={{width:"90%" ,  margin: '5px' }}>
           <CardTitle style={{ color: '#000', height: '176px' }} >Image Classifier</CardTitle>
           <CardText>
            AWS geared image sorting solution using Laravel framework
@@ -74,7 +74,7 @@ class Projects extends Component {
         </div>
        
         <div className="column-1" >
-        <Card shadow={5} style={{width:'100%', margin: '5px' }}>
+        <Card shadow={5} style={{width:'90%', margin: '5px' }}>
           <CardTitle style={{ color: '#000', height: '176px', }} >Query Generator</CardTitle>
           <CardText>
             Web Service wrapper around Standford NLP Parser with an aesthetic AngularJS UI/UX 
@@ -88,7 +88,7 @@ class Projects extends Component {
 
 
         <div className="column-1">
-          <Card shadow={5} style={{ width:'100%', margin: '5px' }}>
+          <Card shadow={5} style={{ width:'90%', margin: '5px' }}>
             <CardTitle style={{ color: '#000', height: '176px' }} >Roll A Dice Game</CardTitle>
             <CardText>
               Dice ROlling game demostarting server-client architecture using TCP connections over local network
