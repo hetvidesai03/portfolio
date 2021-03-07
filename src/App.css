@@ -5,7 +5,7 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, F
 }
 
 .landing-grid {
-    background: #d9a7c7;  /* fallback for old browsers */
+background: #d9a7c7;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 text-align: center;
@@ -20,19 +20,16 @@ height: 100%;
 }
 
 .projects-grid {
-background: #d9a7c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-size: contain;
-background-repeat: repeat;
-  border-spacing: 20px;
-  align-content: flex-start;
-  padding: 20px 20px 20px 20px;
-  
-  width: auto;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  background: #d9a7c7 ;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7) ;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size:cover ;
+
+border-spacing: 20px;
+align-content: flex-start;
+padding: 20px 20px 20px 20px;
+display: flex;
+flex-wrap: wrap;
   
 }
 
@@ -43,11 +40,14 @@ background-repeat: repeat;
   padding: 2em;
 }
 .resume-body{
-  background: #d9a7c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #d9a7c7 ;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7) ;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size:cover ;
 
+  height: 100%;
 }
+
 
 /* contact page css */
 

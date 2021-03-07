@@ -12,7 +12,7 @@ class App extends Component {
         <Header className="header-color"  title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Home</Link>} scroll>
             <Navigation>
                 <Link style={{textDecoration: 'none', color: 'black'}} to="/resume">Resume</Link>
-                <Link style={{textDecoration: 'none', color: 'black'}}to="/aboutme">About Me</Link>
+                {/* <Link style={{textDecoration: 'none', color: 'black'}}to="/aboutme">About Me</Link> */}
                 <Link style={{textDecoration: 'none', color: 'black'}} to="/projects">Projects</Link>
                 <Link style={{textDecoration: 'none', color: 'black'}} to="/contact">Contact</Link>
             </Navigation>
@@ -21,7 +21,7 @@ class App extends Component {
          
             <Navigation>
               <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
+              {/* <Link to="/aboutme">About Me</Link> */}
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>

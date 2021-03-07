@@ -10,7 +10,7 @@ class Skill extends Component {
         </Cell>
         <Cell col={8}>
           
-          <h5 style={{marginTop:'0px'}}>{this.props.skill}</h5>
+          <h5 style={{marginTop:'0',fontSize:'1.5em', marginBottom:'10px' }}>{this.props.skill}</h5>
         </Cell>
       </Grid>
     )
