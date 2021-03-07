@@ -27,7 +27,7 @@ class Projects extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto',height:'400px',marginTop:'10px'   }}>
           <CardTitle style={{ color: '#000', height: '200px' }} >Web Search Engine</CardTitle>
           <CardText>
-            Flask powered query-based text search engine utilizing a Python crawler
+            Flask powered query-based text search engine utilizing a Python crawler.
             </CardText>
           <CardActions style={{height:'100px'}} border>
             <Button colored>GitHub</Button>
