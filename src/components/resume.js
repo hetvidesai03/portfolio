@@ -44,7 +44,7 @@ class Resume extends Component {
             <p>dhetvi@ymail.com</p>
 
             <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <p>hetvidesai.netlify.app</p>
 
             <hr style={{ borderTop: '3px solid #833fb2', width: '100%', margin: '3px' }} />
           </Cell>
