@@ -29,9 +29,9 @@ class Projects extends Component {
           <CardText>
             Flask powered query-based text search engine utilizing a Python crawler.
             </CardText>
-          <CardActions style={{height:'100px'}} border>
-            <Button colored>GitHub</Button>
-          </CardActions>
+          {/* <CardActions style={{height:'100px'}} border>
+            <Button colored href="https://github.com/hetvidesai03/SearchEngine">GitHub</Button>
+          </CardActions> */}
           {/* <CardMenu style={{ color: '#fff' }}>
             <IconButton name="share" />
           </CardMenu> */}
@@ -44,9 +44,9 @@ class Projects extends Component {
           <CardText>
             Web-based solution built using ReactJS and HTML5 GeoLocation utilizing a crawler and pre-built APIs
               </CardText>
-          <CardActions  style={{height:'100px'}} border>
+          {/* <CardActions  style={{height:'100px'}} border>
             <Button colored>GitHub</Button>
-          </CardActions>
+          </CardActions> */}
           {/* <CardMenu style={{ color: '#fff' }}>
             <IconButton name="share" />
           </CardMenu> */}
@@ -58,9 +58,9 @@ class Projects extends Component {
           <CardText>
             AWS geared image sorting solution using Laravel framework
             </CardText>
-          <CardActions  style={{height:'100px'}} border>
+          {/* <CardActions  style={{height:'100px'}} border>
             <Button colored>GitHub</Button>
-          </CardActions>
+          </CardActions> */}
           {/* <CardMenu style={{ color: '#fff' }}>
             <IconButton name="share" />
           </CardMenu> */}
@@ -82,9 +82,9 @@ class Projects extends Component {
             <CardText>
               Dice ROlling game demostarting server-client architecture using TCP connections over local network
               </CardText>
-            <CardActions  style={{height:'100px'}} border>
+            {/* <CardActions  style={{height:'100px'}} border>
               <Button colored>GitHub</Button>
-            </CardActions>
+            </CardActions> */}
             {/* <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu> */}
